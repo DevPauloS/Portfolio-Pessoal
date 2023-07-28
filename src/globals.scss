@@ -1,0 +1,27 @@
+:root {
+  --text-primary: white;
+  --text-secondary: #b3b3b3;
+  --bg-primary: #2c2c2c;
+  --bg-linear: linear-gradient(90deg, #777cf4 2.62%, #f47777 93.38%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+
+}
+body{
+  background-color: var(--bg-primary);
+  padding: 40px 32px;
+}
+
+
+
+

@@ -1,0 +1,19 @@
+.social{
+    display: flex;
+    align-items: center;
+    gap: 24px;      
+    
+    a{
+        display: flex;
+        height: 40px;
+        width: 40px;
+        border: 1px solid var(--bg-linear);
+        border-radius: 100%;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        background: var(--bg-linear);        
+        display: flex;
+        cursor: pointer;        
+    }
+}
